@@ -1,0 +1,280 @@
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\appsettings.Development.json
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\appsettings.json
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Talabat.APIs.exe
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Talabat.APIs.deps.json
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Talabat.APIs.runtimeconfig.json
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Talabat.APIs.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Talabat.APIs.pdb
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.csproj.AssemblyReference.cache
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.AssemblyInfoInputs.cache
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.AssemblyInfo.cs
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.csproj.CoreCompileInputs.cache
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.MvcApplicationPartsAssemblyInfo.cs
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.MvcApplicationPartsAssemblyInfo.cache
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\staticwebassets.build.json
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\staticwebassets.development.json
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\staticwebassets\msbuild.Talabat.APIs.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\staticwebassets\msbuild.build.Talabat.APIs.props
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Talabat.APIs.props
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Talabat.APIs.props
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\scopedcss\bundle\Talabat.APIs.styles.css
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat..E80B9396.Up2Date
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\refint\Talabat.APIs.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.pdb
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.genruntimeconfig.cache
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\ref\Talabat.APIs.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Azure.Core.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Azure.Identity.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Humanizer.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.CodeDom.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Memory.Data.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Talabat.Core.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Talabat.Repository.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Talabat.Core.pdb
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Talabat.Repository.pdb
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\appsettings.Development.json
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\appsettings.json
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Talabat.APIs.exe
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Talabat.APIs.deps.json
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Talabat.APIs.runtimeconfig.json
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Talabat.APIs.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Talabat.APIs.pdb
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Azure.Core.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Azure.Identity.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Humanizer.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.CodeDom.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Talabat.Core.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Talabat.Repository.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Talabat.Core.pdb
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Talabat.Repository.pdb
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.csproj.AssemblyReference.cache
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.AssemblyInfoInputs.cache
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.AssemblyInfo.cs
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.csproj.CoreCompileInputs.cache
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.MvcApplicationPartsAssemblyInfo.cs
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.MvcApplicationPartsAssemblyInfo.cache
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\staticwebassets.build.json
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\staticwebassets.development.json
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\staticwebassets\msbuild.Talabat.APIs.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\staticwebassets\msbuild.build.Talabat.APIs.props
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Talabat.APIs.props
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Talabat.APIs.props
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\scopedcss\bundle\Talabat.APIs.styles.css
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat..E80B9396.Up2Date
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\refint\Talabat.APIs.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.pdb
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.genruntimeconfig.cache
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\ref\Talabat.APIs.dll

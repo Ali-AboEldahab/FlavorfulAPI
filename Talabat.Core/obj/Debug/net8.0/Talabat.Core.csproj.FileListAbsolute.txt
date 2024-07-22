@@ -1,0 +1,22 @@
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\bin\Debug\net8.0\Talabat.Core.deps.json
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\bin\Debug\net8.0\Talabat.Core.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\bin\Debug\net8.0\Talabat.Core.pdb
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\Talabat.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\Talabat.Core.AssemblyInfoInputs.cache
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\Talabat.Core.AssemblyInfo.cs
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\Talabat.Core.csproj.CoreCompileInputs.cache
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\Talabat.Core.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\refint\Talabat.Core.dll
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\Talabat.Core.pdb
+E:\Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\ref\Talabat.Core.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\bin\Debug\net8.0\Talabat.Core.deps.json
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\bin\Debug\net8.0\Talabat.Core.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\bin\Debug\net8.0\Talabat.Core.pdb
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\Talabat.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\Talabat.Core.AssemblyInfoInputs.cache
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\Talabat.Core.AssemblyInfo.cs
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\Talabat.Core.csproj.CoreCompileInputs.cache
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\Talabat.Core.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\refint\Talabat.Core.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\Talabat.Core.pdb
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\ref\Talabat.Core.dll
