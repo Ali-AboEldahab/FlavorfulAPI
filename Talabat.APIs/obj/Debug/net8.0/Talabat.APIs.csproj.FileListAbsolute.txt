@@ -278,3 +278,6 @@ D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\D
 D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.pdb
 D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.genruntimeconfig.cache
 D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\ref\Talabat.APIs.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\obj\Debug\net8.0\Talabat.APIs.sourcelink.json
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\AutoMapper.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

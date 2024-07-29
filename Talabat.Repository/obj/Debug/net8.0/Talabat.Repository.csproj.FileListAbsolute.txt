@@ -28,3 +28,4 @@ D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Repository
 D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Repository\obj\Debug\net8.0\refint\Talabat.Repository.dll
 D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Repository\obj\Debug\net8.0\Talabat.Repository.pdb
 D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Repository\obj\Debug\net8.0\ref\Talabat.Repository.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Repository\obj\Debug\net8.0\Talabat.Repository.sourcelink.json

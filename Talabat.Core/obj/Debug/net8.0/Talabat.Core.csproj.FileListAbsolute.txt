@@ -20,3 +20,4 @@ D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\D
 D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\refint\Talabat.Core.dll
 D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\Talabat.Core.pdb
 D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\ref\Talabat.Core.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\Talabat.Core.sourcelink.json
