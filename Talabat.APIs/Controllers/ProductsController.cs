@@ -32,9 +32,9 @@ namespace Talabat.APIs.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<ProductToReturnDto>>> GetProducts()
+        public async Task<ActionResult<IReadOnlyList<ProductToReturnDto>>> GetProducts( string sort)
         {
-            var spec = new ProductWithBrandAndCategorySpec();
+            var spec = new ProductWithBrandAndCategorySpec(sort);
             var products = await _productRepo.GetAllWithSpecAsync(spec);
             return Ok(_mapper.Map< IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDto>>(products));
         }
@@ -42,7 +42,7 @@ namespace Talabat.APIs.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<ProductToReturnDto>> GetProduct(int id)
         {
-            var spec = new ProductWithBrandAndCategorySpec(id);
+            var spec = new ProductWithBrandAndCategorySpec(id); 
             var product = await _productRepo.GetWithSpecAsync(spec);
             if(product == null)
                 return NotFound(new ApiResponse(404));
