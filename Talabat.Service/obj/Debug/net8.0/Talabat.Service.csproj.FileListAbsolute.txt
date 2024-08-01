@@ -20,3 +20,4 @@ D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Service\ob
 D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Service\obj\Debug\net8.0\refint\Talabat.Service.dll
 D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Service\obj\Debug\net8.0\Talabat.Service.pdb
 D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Service\obj\Debug\net8.0\ref\Talabat.Service.dll
+D:\Ali\Backend Project\Talabat\Backend (API)\Talabat.Solution\Talabat.Service\obj\Debug\net8.0\Talabat.Service.sourcelink.json
