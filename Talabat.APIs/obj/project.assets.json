@@ -4623,11 +4623,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ali\\Backend Project\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.APIs\\Talabat.APIs.csproj",
+      "projectUniqueName": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.APIs\\Talabat.APIs.csproj",
       "projectName": "Talabat.APIs",
-      "projectPath": "D:\\Ali\\Backend Project\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.APIs\\Talabat.APIs.csproj",
+      "projectPath": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.APIs\\Talabat.APIs.csproj",
       "packagesPath": "C:\\Users\\ali.aboeldahab\\.nuget\\packages\\",
-      "outputPath": "D:\\Ali\\Backend Project\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.APIs\\obj\\",
+      "outputPath": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.APIs\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages"
@@ -4650,11 +4650,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Ali\\Backend Project\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Core\\Talabat.Core.csproj": {
-              "projectPath": "D:\\Ali\\Backend Project\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Core\\Talabat.Core.csproj"
+            "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Core\\Talabat.Core.csproj": {
+              "projectPath": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Core\\Talabat.Core.csproj"
             },
-            "D:\\Ali\\Backend Project\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Repository\\Talabat.Repository.csproj": {
-              "projectPath": "D:\\Ali\\Backend Project\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Repository\\Talabat.Repository.csproj"
+            "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Repository\\Talabat.Repository.csproj": {
+              "projectPath": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Repository\\Talabat.Repository.csproj"
             }
           }
         }

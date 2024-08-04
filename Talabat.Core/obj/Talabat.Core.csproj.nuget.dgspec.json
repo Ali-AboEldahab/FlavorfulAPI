@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ali\\Backend Project\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Core\\Talabat.Core.csproj": {}
+    "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Core\\Talabat.Core.csproj": {}
   },
   "projects": {
-    "D:\\Ali\\Backend Project\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Core\\Talabat.Core.csproj": {
+    "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Core\\Talabat.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ali\\Backend Project\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Core\\Talabat.Core.csproj",
+        "projectUniqueName": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Core\\Talabat.Core.csproj",
         "projectName": "Talabat.Core",
-        "projectPath": "D:\\Ali\\Backend Project\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Core\\Talabat.Core.csproj",
+        "projectPath": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Core\\Talabat.Core.csproj",
         "packagesPath": "C:\\Users\\ali.aboeldahab\\.nuget\\packages\\",
-        "outputPath": "D:\\Ali\\Backend Project\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Core\\obj\\",
+        "outputPath": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages"

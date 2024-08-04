@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ali\\Backend Project\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Service\\Talabat.Service.csproj",
+      "projectUniqueName": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Service\\Talabat.Service.csproj",
       "projectName": "Talabat.Service",
-      "projectPath": "D:\\Ali\\Backend Project\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Service\\Talabat.Service.csproj",
+      "projectPath": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Service\\Talabat.Service.csproj",
       "packagesPath": "C:\\Users\\ali.aboeldahab\\.nuget\\packages\\",
-      "outputPath": "D:\\Ali\\Backend Project\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Service\\obj\\",
+      "outputPath": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages"
