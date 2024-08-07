@@ -1,12 +1,16 @@
 
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using StackExchange.Redis;
 using Talabat.APIs.Errors;
 using Talabat.APIs.Helpers;
 using Talabat.APIs.Middlewares;
+using Talabat.Core.Entities.Identity;
 using Talabat.Core.IRepository;
 using Talabat.Repository;
 using Talabat.Repository.Data;
+using Talabat.Repository.Identity;
 
 namespace Talabat.APIs
 {
@@ -15,6 +19,7 @@ namespace Talabat.APIs
         public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            string? redisConnectionString = builder.Configuration["RedisConnection"];
 
             // Add services to the container.
 
@@ -24,21 +29,39 @@ namespace Talabat.APIs
             builder.Services.AddSwaggerGen();
 
             //Configure options
+            //Store Context
             builder.Services.AddDbContext<StoreContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            //Identity Context
+            builder.Services.AddDbContext<AppIdentityDbContext>(options =>
+            options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection")));
 
             //Creat obj in Controller from IGeneric
             builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
+            //Allow DI For BasketRepository
+            builder.Services.AddScoped(typeof(IBasketRepository), typeof(BasketRepository));
+
             //Auto Mapper
             builder.Services.AddAutoMapper(typeof(MappingProfiles));
+
+            //Configure Redis
+            builder.Services.AddSingleton<IConnectionMultiplexer>(x =>
+                ConnectionMultiplexer.Connect(redisConnectionString!));
+
+            //Allow DI for Identity Service
+            builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
+            {
+
+            }).AddEntityFrameworkStores<AppIdentityDbContext>();
 
             //Validation Error
             builder.Services.Configure<ApiBehaviorOptions>(options =>
             {
                 options.InvalidModelStateResponseFactory = (actionContext) =>
                 {
-                    var errors = actionContext.ModelState.Where(p => p.Value.Errors.Count() > 0)
+                    string[] errors = actionContext.ModelState.Where(p => p.Value.Errors.Count() > 0)
                                                          .SelectMany(p => p.Value.Errors)
                                                          .Select(e => e.ErrorMessage)
                                                          .ToArray();
@@ -75,13 +98,20 @@ namespace Talabat.APIs
             using var scope = app.Services.CreateScope();
             var services = scope.ServiceProvider;
             var _dbContext = services.GetRequiredService<StoreContext>();
+            var _IdentityDbContext = services.GetRequiredService<AppIdentityDbContext>();
 
             var loggerfactory = services.GetRequiredService<ILoggerFactory>();
 
             try
             {
-               await _dbContext.Database.MigrateAsync(); //Updating database
-               await StoreContextSeed.SeedAsync(_dbContext); //Data Seeding
+                await _dbContext.Database.MigrateAsync(); //Updating database
+                await StoreContextSeed.SeedAsync(_dbContext); //Data Seeding
+
+                await _IdentityDbContext.Database.MigrateAsync(); //Updating Identity database
+
+                //Identity Seed
+                UserManager<AppUser> _userManager = services.GetRequiredService<UserManager<AppUser>>();
+                await AppIdentityDbContextSeed.SeedUserAsync(_userManager);
             }
             catch (Exception ex)
             {

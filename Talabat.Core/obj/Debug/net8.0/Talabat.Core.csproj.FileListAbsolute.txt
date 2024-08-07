@@ -33,3 +33,4 @@ D:\Ali\Backend Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\
 D:\Ali\Backend Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\refint\Talabat.Core.dll
 D:\Ali\Backend Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\Talabat.Core.pdb
 D:\Ali\Backend Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\ref\Talabat.Core.dll
+D:\Ali\Backend Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Core\obj\Debug\net8.0\Talabat.Core.csproj.AssemblyReference.cache
