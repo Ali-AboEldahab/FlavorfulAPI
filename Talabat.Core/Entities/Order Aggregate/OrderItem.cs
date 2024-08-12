@@ -12,7 +12,7 @@ namespace Talabat.Core.Entities.Order_Aggregate
         {
             
         }
-        public OrderItem(ProductItemOrdered product, decimal price, int quantity)
+        public OrderItem(ProductItemOrdered product, decimal? price, int quantity)
         {
             Product = product;
             Price = price;
@@ -20,7 +20,7 @@ namespace Talabat.Core.Entities.Order_Aggregate
         }
 
         public ProductItemOrdered Product {  get; set; }
-        public decimal Price { get; set; }
+        public decimal? Price { get; set; }
         public int Quantity { get; set; }
     }
 }

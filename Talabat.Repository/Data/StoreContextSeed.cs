@@ -5,6 +5,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Talabat.Core.Entities;
+using Talabat.Core.Entities.Order_Aggregate;
 
 namespace Talabat.Repository.Data
 {
@@ -14,12 +15,12 @@ namespace Talabat.Repository.Data
         {
             if (_dbContext.ProductBrands.Count() == 0)
             {
-                var brandsData = File.ReadAllText("../Talabat.Repository/Data/DataSeeding/brands.json");
-                var brands = JsonSerializer.Deserialize<List<ProductBrand>>(brandsData);
+                string brandsData = File.ReadAllText("../Talabat.Repository/Data/DataSeeding/brands.json");
+                List<ProductBrand>? brands = JsonSerializer.Deserialize<List<ProductBrand>>(brandsData);
 
                 if (brands?.Count() > 0)
                 {
-                    foreach (var brand in brands)
+                    foreach (ProductBrand brand in brands)
                     {
                         _dbContext.Set<ProductBrand>().Add(brand);
                     }
@@ -29,12 +30,12 @@ namespace Talabat.Repository.Data
 
             if (_dbContext.ProductCategories.Count() == 0)
             {
-                var categoriesData = File.ReadAllText("../Talabat.Repository/Data/DataSeeding/categories.json");
-                var categories = JsonSerializer.Deserialize<List<ProductCategory>>(categoriesData);
+                string categoriesData = File.ReadAllText("../Talabat.Repository/Data/DataSeeding/categories.json");
+                List<ProductCategory>? categories = JsonSerializer.Deserialize<List<ProductCategory>>(categoriesData);
 
                 if (categories?.Count() > 0)
                 {
-                    foreach (var category in categories)
+                    foreach (ProductCategory category in categories)
                     {
                         _dbContext.Set<ProductCategory>().Add(category);
                     }
@@ -44,12 +45,12 @@ namespace Talabat.Repository.Data
 
             if (_dbContext.Products.Count() == 0)
             {
-                var productsData = File.ReadAllText("../Talabat.Repository/Data/DataSeeding/products.json");
-                var products = JsonSerializer.Deserialize<List<Product>>(productsData);
+                string productsData = File.ReadAllText("../Talabat.Repository/Data/DataSeeding/products.json");
+                List<Product>? products = JsonSerializer.Deserialize<List<Product>>(productsData);
 
                 if (products?.Count() > 0)
                 {
-                    foreach (var product in products)
+                    foreach (Product product in products)
                     {
                         _dbContext.Set<Product>().Add(product);
                     }
@@ -57,7 +58,20 @@ namespace Talabat.Repository.Data
                 }
             }
 
+            if (_dbContext.DeliveryMethods.Count() == 0)
+            {
+                string deliveryMethodsData = File.ReadAllText("../Talabat.Repository/Data/DataSeeding/delivery.json");
+                List<DeliveryMethod>? deliveryMethods = JsonSerializer.Deserialize<List<DeliveryMethod>>(deliveryMethodsData);
 
+                if (deliveryMethods?.Count() > 0)
+                {
+                    foreach (DeliveryMethod deliveryMethod in deliveryMethods)
+                    {
+                        _dbContext.Set<DeliveryMethod>().Add(deliveryMethod);
+                    }
+                    await _dbContext.SaveChangesAsync();
+                }
+            }
         }
     }
 }

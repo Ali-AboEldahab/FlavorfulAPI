@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Talabat.APIs.DTOs;
 using Talabat.Core.Entities;
+using Talabat.Core.Entities.Order_Aggregate;
 
 namespace Talabat.APIs.Helpers
 {
@@ -15,8 +16,8 @@ namespace Talabat.APIs.Helpers
                 .ForMember(d => d.PictureUrl,o=>o.MapFrom<ProductPictureUrlResolver>());
 
             CreateMap<CustomerBasketDro, CustomerBasket>();
-
             CreateMap<BasketItemDto, BasketItem>();
+            CreateMap<AddressDto, Address>();
         }
     }
 }

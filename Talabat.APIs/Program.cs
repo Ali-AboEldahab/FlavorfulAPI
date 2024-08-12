@@ -5,11 +5,14 @@ using StackExchange.Redis;
 using Talabat.APIs.Errors;
 using Talabat.APIs.Helpers;
 using Talabat.APIs.Middlewares;
+using Talabat.Core;
 using Talabat.Core.Entities.Identity;
 using Talabat.Core.IRepository;
+using Talabat.Core.Services;
 using Talabat.Repository;
 using Talabat.Repository.Data;
 using Talabat.Repository.Identity;
+using Talabat.Service;
 
 namespace Talabat.APIs
 {
@@ -41,6 +44,12 @@ namespace Talabat.APIs
 
             //Allow DI For BasketRepository
             builder.Services.AddScoped(typeof(IBasketRepository), typeof(BasketRepository));
+
+            //Unit of Work
+            builder.Services.AddScoped(typeof(IUnitOfWork), typeof(UnitOfWork));
+
+            //Order Service
+            builder.Services.AddScoped(typeof(IOrderService), typeof(OrderService));
 
             //Auto Mapper
             builder.Services.AddAutoMapper(typeof(MappingProfiles));

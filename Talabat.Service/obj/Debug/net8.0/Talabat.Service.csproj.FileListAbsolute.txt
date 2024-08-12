@@ -33,3 +33,7 @@ D:\Ali\Backend Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Service\o
 D:\Ali\Backend Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Service\obj\Debug\net8.0\refint\Talabat.Service.dll
 D:\Ali\Backend Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Service\obj\Debug\net8.0\Talabat.Service.pdb
 D:\Ali\Backend Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Service\obj\Debug\net8.0\ref\Talabat.Service.dll
+D:\Ali\Backend Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Service\bin\Debug\net8.0\Talabat.Core.dll
+D:\Ali\Backend Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Service\bin\Debug\net8.0\Talabat.Core.pdb
+D:\Ali\Backend Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Service\obj\Debug\net8.0\Talabat.Service.csproj.AssemblyReference.cache
+D:\Ali\Backend Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.Service\obj\Debug\net8.0\Talabat..89B18B2E.Up2Date

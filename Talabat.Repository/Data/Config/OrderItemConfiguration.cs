@@ -16,7 +16,7 @@ namespace Talabat.Repository.Data.Config
             builder.OwnsOne(oi => oi.Product, p => p.WithOwner());
 
             builder.Property(oi => oi.Price)
-                .HasColumnName("decimal(18,2)");
+                .HasColumnType("decimal(18,2)");
         }
     }
 }
