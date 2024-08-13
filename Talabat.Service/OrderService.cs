@@ -5,7 +5,6 @@ using Talabat.Core.IRepository;
 using Talabat.Core.Services;
 using Talabat.Core.Specifications.OrderSpecifications;
 
-
 namespace Talabat.Service
 {
     public class OrderService : IOrderService
@@ -63,6 +62,11 @@ namespace Talabat.Service
             OrderSpec spec = new(orderId,buyerEmail);
             Order? order = await orderRepo.GetByIdWithSpecAsync(spec);
             return order;
+        }
+
+        public async Task<IReadOnlyList<DeliveryMethod>> GetDeliveryMethodAsync()
+        {
+            return await _unitOfWork.DeliveryMethodsRepo.GetAllAsync();   
         }
     }
 }

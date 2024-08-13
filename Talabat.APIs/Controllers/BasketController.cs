@@ -8,8 +8,6 @@ using Talabat.Core.IRepository;
 
 namespace Talabat.APIs.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
     public class BasketController : BaseApiController
     {
         private readonly IBasketRepository _basketRepository;

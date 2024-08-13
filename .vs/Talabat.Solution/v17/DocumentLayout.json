@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{78A77794-1328-4B4E-A68E-435BB99989AC}|Talabat.APIs\\Talabat.APIs.csproj|d:\\ali\\backend projects\\talabat\\backend (api)\\talabat.solution\\talabat.apis\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A77794-1328-4B4E-A68E-435BB99989AC}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E3EACA1-406D-4216-BAD6-9E32C2074C44}|Talabat.Service\\Talabat.Service.csproj|d:\\ali\\backend projects\\talabat\\backend (api)\\talabat.solution\\talabat.service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E3EACA1-406D-4216-BAD6-9E32C2074C44}|Talabat.Service\\Talabat.Service.csproj|solutionrelative:talabat.service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B108D55B-37CC-4ACD-8AF4-7D1A7C410E7C}|Talabat.Core\\Talabat.Core.csproj|d:\\ali\\backend projects\\talabat\\backend (api)\\talabat.solution\\talabat.core\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B108D55B-37CC-4ACD-8AF4-7D1A7C410E7C}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B108D55B-37CC-4ACD-8AF4-7D1A7C410E7C}|Talabat.Core\\Talabat.Core.csproj|d:\\ali\\backend projects\\talabat\\backend (api)\\talabat.solution\\talabat.core\\specifications\\orderspecifications\\orderspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B108D55B-37CC-4ACD-8AF4-7D1A7C410E7C}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\specifications\\orderspecifications\\orderspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B108D55B-37CC-4ACD-8AF4-7D1A7C410E7C}|Talabat.Core\\Talabat.Core.csproj|d:\\ali\\backend projects\\talabat\\backend (api)\\talabat.solution\\talabat.core\\irepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B108D55B-37CC-4ACD-8AF4-7D1A7C410E7C}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\irepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78A77794-1328-4B4E-A68E-435BB99989AC}|Talabat.APIs\\Talabat.APIs.csproj|d:\\ali\\backend projects\\talabat\\backend (api)\\talabat.solution\\talabat.apis\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78A77794-1328-4B4E-A68E-435BB99989AC}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,65 +34,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderSpec.cs",
-              "DocumentMoniker": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Core\\Specifications\\OrderSpecifications\\OrderSpec.cs",
-              "RelativeDocumentMoniker": "Talabat.Core\\Specifications\\OrderSpecifications\\OrderSpec.cs",
-              "ToolTip": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Core\\Specifications\\OrderSpecifications\\OrderSpec.cs",
-              "RelativeToolTip": "Talabat.Core\\Specifications\\OrderSpecifications\\OrderSpec.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T07:43:39.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Core\\IRepository\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "Talabat.Core\\IRepository\\IGenericRepository.cs",
-              "ToolTip": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Core\\IRepository\\IGenericRepository.cs",
-              "RelativeToolTip": "Talabat.Core\\IRepository\\IGenericRepository.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAhwA8AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T07:18:08.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.APIs\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "Talabat.APIs\\Controllers\\OrdersController.cs",
               "ToolTip": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.APIs\\Controllers\\OrdersController.cs*",
               "RelativeToolTip": "Talabat.APIs\\Controllers\\OrdersController.cs*",
-              "ViewState": "AQIAABUAAAAAAAAAAAAcwC0AAAApAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowDcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T11:35:22.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Service\\OrderService.cs",
-              "RelativeDocumentMoniker": "Talabat.Service\\OrderService.cs",
-              "ToolTip": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Service\\OrderService.cs*",
-              "RelativeToolTip": "Talabat.Service\\OrderService.cs*",
-              "ViewState": "AQIAACoAAAAAAAAAAAAcwEAAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T08:48:14.96Z",
+              "WhenOpened": "2024-08-13T07:36:09.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Service\\OrderService.cs",
+              "RelativeDocumentMoniker": "Talabat.Service\\OrderService.cs",
+              "ToolTip": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Service\\OrderService.cs*",
+              "RelativeToolTip": "Talabat.Service\\OrderService.cs*",
+              "ViewState": "AQIAADAAAAAAAAAAAAAvwEUAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T06:41:01.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Core\\Services\\IOrderService.cs",
               "RelativeDocumentMoniker": "Talabat.Core\\Services\\IOrderService.cs",
               "ToolTip": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Core\\Services\\IOrderService.cs*",
               "RelativeToolTip": "Talabat.Core\\Services\\IOrderService.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T08:41:22.096Z",
               "EditorCaption": ""

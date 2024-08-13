@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Talabat.APIs.DTOs;
 using Talabat.APIs.Errors;
@@ -20,7 +19,7 @@ namespace Talabat.APIs.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Order>> CreateOrder(OrderDto orderDto)
+        public async Task<ActionResult<OrderToReturnDto>> CreateOrder(OrderDto orderDto)
         {
             Address address = _mapper.Map<AddressDto, Address>(orderDto.ShippingAddress);
             Order? order = await _orderService.CreateOrderAsync(orderDto.BuyerEmail, orderDto.BasketId, orderDto.DeliveryMethodId, address);
@@ -28,23 +27,29 @@ namespace Talabat.APIs.Controllers
             if (order is null)
                 return BadRequest(new ApiResponse(400));
 
-            return Ok(order);
+            return Ok(_mapper.Map<OrderToReturnDto>(order));
         }
 
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<Order>>> GetOrdersForUser(string email)
+        public async Task<ActionResult<IReadOnlyList<OrderToReturnDto>>> GetOrdersForUser(string email)
         {
-            IReadOnlyList<Order>? orders = await _orderService.CreateOrderForUserAsync(email);
-            return Ok(orders);
+            IReadOnlyList<Order> orders = await _orderService.CreateOrderForUserAsync(email);
+            return Ok(_mapper.Map<IReadOnlyList<OrderToReturnDto>>(orders));
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Order>> GetOrderForUser(int id,string email)
+        public async Task<ActionResult<OrderToReturnDto>> GetOrderForUser(int id,string email)
         {
             Order? order = await _orderService.CreateOrderByIdForUserAsync(id, email);  
             if (order is null)
                 return NotFound(new ApiResponse(404));
-            return Ok(order);
+            return Ok(_mapper.Map<OrderToReturnDto>(order));
+        }
+
+        [HttpGet("deliveryMethod")]
+        public async Task<ActionResult<IReadOnlyList<DeliveryMethod>>> GetDeliveryMethod()
+        {
+            return Ok(await _orderService.GetDeliveryMethodAsync());
         }
     }
 }
