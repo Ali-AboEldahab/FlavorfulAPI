@@ -1,7 +1,11 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using StackExchange.Redis;
+using System.Text;
 using Talabat.APIs.Errors;
 using Talabat.APIs.Helpers;
 using Talabat.APIs.Middlewares;
@@ -20,15 +24,40 @@ namespace Talabat.APIs
     {
         public static async Task Main(string[] args)
         {
-            var builder = WebApplication.CreateBuilder(args);
+            WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
             string? redisConnectionString = builder.Configuration["RedisConnection"];
+            ConfigurationManager configuration = builder.Configuration;
 
             // Add services to the container.
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            builder.Services.AddSwaggerGen(options =>
+            {
+                options.AddSecurityDefinition(name: JwtBearerDefaults.AuthenticationScheme,
+                    securityScheme: new OpenApiSecurityScheme
+                    {
+                        Name = "Authorization",
+                        Description = "Enter The Bearer Authorization : `Bearer Generated-JWT-Token`",
+                        In = ParameterLocation.Header,
+                        Type = SecuritySchemeType.ApiKey,
+                        Scheme = "Bearer"
+                    });
+                options.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = JwtBearerDefaults.AuthenticationScheme
+                            }
+                        },Array.Empty<string>()
+                    }
+                });
+            });
 
             //Configure options
             //Store Context
@@ -39,8 +68,8 @@ namespace Talabat.APIs
             builder.Services.AddDbContext<AppIdentityDbContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection")));
 
-            //Creat obj in Controller from IGeneric
-            builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            //Creat obj in Controller from IProductService
+            builder.Services.AddScoped(typeof(IProductService), typeof(ProductService));
 
             //Allow DI For BasketRepository
             builder.Services.AddScoped(typeof(IBasketRepository), typeof(BasketRepository));
@@ -51,6 +80,7 @@ namespace Talabat.APIs
             //Order Service
             builder.Services.AddScoped(typeof(IOrderService), typeof(OrderService));
 
+
             //Auto Mapper
             builder.Services.AddAutoMapper(typeof(MappingProfiles));
 
@@ -58,11 +88,38 @@ namespace Talabat.APIs
             builder.Services.AddSingleton<IConnectionMultiplexer>(x =>
                 ConnectionMultiplexer.Connect(redisConnectionString!));
 
+            //Identity Services
+            //Token (Auth Service)
+            builder.Services.AddScoped(typeof(IAuthService), typeof(AuthService));
+
             //Allow DI for Identity Service
             builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
             {
 
             }).AddEntityFrameworkStores<AppIdentityDbContext>();
+
+            //Auth Schema
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+                .AddJwtBearer(options =>
+                {
+                    //Config Auth Handler
+                    options.TokenValidationParameters = new TokenValidationParameters()
+                    {
+                        ValidateAudience = true,
+                        ValidAudience = configuration["JWT:Audience"],
+                        ValidateIssuer = true,
+                        ValidIssuer = configuration["JWT:Issuer"],
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT:SecretKey"])),
+                        ValidateLifetime = true,
+                        ClockSkew = TimeSpan.FromDays(double.Parse(configuration["JWT:DurationInDays"]!))
+                    };
+
+                });
 
             //Validation Error
             builder.Services.Configure<ApiBehaviorOptions>(options =>
@@ -97,9 +154,6 @@ namespace Talabat.APIs
 
             app.UseHttpsRedirection();
 
-            app.UseAuthorization();
-
-
             app.MapControllers();
 
             //Update-Database Automatically while runnig app
@@ -126,6 +180,10 @@ namespace Talabat.APIs
                 var logger = loggerfactory.CreateLogger<Program>();
                 logger.LogError(ex, "An Error has been occured during applying migration");
             }
+
+            app.UseAuthentication();
+
+            app.UseAuthorization();
 
             app.Run();
         }

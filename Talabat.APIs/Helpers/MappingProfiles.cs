@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Talabat.APIs.DTOs;
 using Talabat.Core.Entities;
+using Talabat.Core.Entities.Identity;
 using Talabat.Core.Entities.Order_Aggregate;
 
 namespace Talabat.APIs.Helpers
@@ -19,7 +20,9 @@ namespace Talabat.APIs.Helpers
 
             CreateMap<BasketItemDto, BasketItem>();
 
-            CreateMap<AddressDto, Address>();
+            CreateMap<AddressDto,Address>();
+
+            CreateMap<UserAddress, AddressDto > ();
 
             CreateMap<Order, OrderToReturnDto>()
                 .ForMember(o => o.DelivryMethod , o => o.MapFrom(s => s.DelivryMethod.ShortName))

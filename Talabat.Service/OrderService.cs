@@ -17,7 +17,7 @@ namespace Talabat.Service
             _unitOfWork = unitOfWork;
             _basketRepo = basketRepo;
         }
-        public async Task<Order?> CreateOrderAsync(string buyerEmail, string BasketId, int deliveryMethodId, Address shippingAddress)
+        public async Task<Order?> CreateOrderAsync(string? buyerEmail, string BasketId, int deliveryMethodId, Address shippingAddress)
         {
             CustomerBasket? basket = await _basketRepo.GetBasketAsync(BasketId);
             List<OrderItem> orderItems = [];
@@ -48,7 +48,7 @@ namespace Talabat.Service
             return order;
         }
          
-        public async Task<IReadOnlyList<Order>> CreateOrderForUserAsync(string buyerEmail)
+        public async Task<IReadOnlyList<Order>> CreateOrderForUserAsync(string? buyerEmail)
         {
             IGenericRepository<Order> ordersRepo = _unitOfWork.OrdersRepo;
             OrderSpec spec = new(buyerEmail);
@@ -56,7 +56,7 @@ namespace Talabat.Service
             return orders;
         }
 
-        public async Task<Order?> CreateOrderByIdForUserAsync(int orderId, string buyerEmail)
+        public async Task<Order?> CreateOrderByIdForUserAsync(int orderId, string? buyerEmail)
         {
             IGenericRepository<Order>? orderRepo = _unitOfWork.OrdersRepo;
             OrderSpec spec = new(orderId,buyerEmail);

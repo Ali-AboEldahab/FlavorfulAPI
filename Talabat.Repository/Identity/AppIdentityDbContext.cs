@@ -15,7 +15,7 @@ namespace Talabat.Repository.Identity
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
-            builder.Entity<Address>().ToTable("Addresses");
+            builder.Entity<UserAddress>().ToTable("Addresses");
         }
     }
 }
