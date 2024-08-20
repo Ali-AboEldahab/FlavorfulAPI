@@ -22,7 +22,7 @@ namespace Talabat.APIs.Helpers
 
             CreateMap<AddressDto,Address>();
 
-            CreateMap<UserAddress, AddressDto > ();
+            CreateMap<UserAddress, AddressDto>().ReverseMap();
 
             CreateMap<Order, OrderToReturnDto>()
                 .ForMember(o => o.DelivryMethod , o => o.MapFrom(s => s.DelivryMethod.ShortName))

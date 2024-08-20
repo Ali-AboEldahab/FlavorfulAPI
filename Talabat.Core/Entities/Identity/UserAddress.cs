@@ -1,4 +1,6 @@
-﻿namespace Talabat.Core.Entities.Identity
+﻿using Talabat.Core.Entities.Order_Aggregate;
+
+namespace Talabat.Core.Entities.Identity
 {
     public class UserAddress
     {
@@ -10,5 +12,9 @@
         public string Country { get; set; }
         public string AppUserId { get; set; } //FK : AppUser
 
+        public static implicit operator UserAddress(Address v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
