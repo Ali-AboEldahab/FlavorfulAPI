@@ -1,6 +1,4 @@
-﻿using Talabat.Core.Entities;
-
-namespace Talabat.Core.Specifications.ProductSpecifications
+﻿namespace Talabat.Core.Specifications.ProductSpecifications
 {
     public class ProductWithFilterationForCountSpecifications : BaseSpecifications<Product>
     {

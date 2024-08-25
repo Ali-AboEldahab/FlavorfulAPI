@@ -1,8 +1,4 @@
-﻿using System.Net;
-using System.Text.Json;
-using Talabat.APIs.Errors;
-
-namespace Talabat.APIs.Middlewares
+﻿namespace Talabat.APIs.Middlewares
 {
     // Convention Based
     public class ExceptionMiddleware

@@ -1,6 +1,4 @@
-﻿using Talabat.Core.Entities.Order_Aggregate;
-
-namespace Talabat.Core.Entities.Identity
+﻿namespace Talabat.Core.Entities.Identity
 {
     public class UserAddress
     {

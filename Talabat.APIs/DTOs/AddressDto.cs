@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace Talabat.APIs.DTOs
+﻿namespace Talabat.APIs.DTOs
 {
     public class AddressDto
     {

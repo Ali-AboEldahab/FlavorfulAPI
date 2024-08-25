@@ -1,11 +1,4 @@
-﻿using AutoMapper;
-using Microsoft.EntityFrameworkCore.Diagnostics;
-using Talabat.APIs.DTOs;
-using Talabat.Core.Entities;
-using Talabat.Core.Entities.Identity;
-using Talabat.Core.Entities.Order_Aggregate;
-
-namespace Talabat.APIs.Helpers
+﻿namespace Talabat.APIs.Helpers
 {
     public class MappingProfiles : Profile
     {

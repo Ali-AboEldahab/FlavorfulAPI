@@ -1,9 +1,4 @@
-﻿using AutoMapper;
-using Microsoft.Extensions.Configuration;
-using Talabat.APIs.DTOs;
-using Talabat.Core.Entities;
-
-namespace Talabat.APIs.Helpers
+﻿namespace Talabat.APIs.Helpers
 {
     public class ProductPictureUrlResolver : IValueResolver<Product, ProductToReturnDto, string>
     {

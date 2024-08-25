@@ -1,19 +1,4 @@
-﻿using AutoMapper;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Talabat.APIs.DTOs;
-using Talabat.APIs.Errors;
-using Talabat.APIs.Helpers;
-using Talabat.Core.Entities;
-using Talabat.Core.IRepository;
-using Talabat.Core.Services;
-using Talabat.Core.Specifications;
-using Talabat.Core.Specifications.ProductSpecifications;
-using Talabat.Repository.Data;
-
-namespace Talabat.APIs.Controllers
+﻿namespace Talabat.APIs.Controllers
 {
     public class ProductsController : BaseApiController
     {

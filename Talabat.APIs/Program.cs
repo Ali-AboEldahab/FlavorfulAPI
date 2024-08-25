@@ -1,23 +1,3 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi.Models;
-using StackExchange.Redis;
-using System.Text;
-using Talabat.APIs.Errors;
-using Talabat.APIs.Helpers;
-using Talabat.APIs.Middlewares;
-using Talabat.Core;
-using Talabat.Core.Entities.Identity;
-using Talabat.Core.IRepository;
-using Talabat.Core.Services;
-using Talabat.Repository;
-using Talabat.Repository.Data;
-using Talabat.Repository.Identity;
-using Talabat.Service;
-
 namespace Talabat.APIs
 {
     public class Program

@@ -1,15 +1,4 @@
-﻿using AutoMapper;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using System.Security.Claims;
-using Talabat.APIs.DTOs;
-using Talabat.APIs.Errors;
-using Talabat.APIs.Extensions;
-using Talabat.Core.Entities.Identity;
-using Talabat.Core.Services;
-
-namespace Talabat.APIs.Controllers
+﻿namespace Talabat.APIs.Controllers
 {
     public class AccountController : BaseApiController
     {

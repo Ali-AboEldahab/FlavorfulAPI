@@ -1,11 +1,4 @@
-﻿using Talabat.Core;
-using Talabat.Core.Entities;
-using Talabat.Core.Entities.Order_Aggregate;
-using Talabat.Core.IRepository;
-using Talabat.Core.Services;
-using Talabat.Core.Specifications.OrderSpecifications;
-
-namespace Talabat.Service
+﻿namespace Talabat.Service
 {
     public class OrderService : IOrderService
     {

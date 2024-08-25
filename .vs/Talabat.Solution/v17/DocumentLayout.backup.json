@@ -42,8 +42,7 @@
               "RelativeToolTip": "Talabat.Core\\Entities\\Identity\\UserAddress.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T11:53:35.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T11:53:35.676Z"
             },
             {
               "$type": "Document",
@@ -53,10 +52,9 @@
               "RelativeDocumentMoniker": "Talabat.APIs\\Extensions\\UserManagerExtension.cs",
               "ToolTip": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.APIs\\Extensions\\UserManagerExtension.cs",
               "RelativeToolTip": "Talabat.APIs\\Extensions\\UserManagerExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T11:41:22.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T11:41:22.205Z"
             },
             {
               "$type": "Document",
@@ -64,9 +62,9 @@
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.APIs\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Talabat.APIs\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.APIs\\Controllers\\AccountController.cs*",
-              "RelativeToolTip": "Talabat.APIs\\Controllers\\AccountController.cs*",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAAwGAAAAAeAAAAAAAAAA==",
+              "ToolTip": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.APIs\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Talabat.APIs\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-14T09:47:11.339Z",
               "EditorCaption": ""

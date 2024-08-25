@@ -1,12 +1,4 @@
-﻿using AutoMapper;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Talabat.APIs.DTOs;
-using Talabat.APIs.Errors;
-using Talabat.Core.Entities;
-using Talabat.Core.IRepository;
-
-namespace Talabat.APIs.Controllers
+﻿namespace Talabat.APIs.Controllers
 {
     public class BasketController : BaseApiController
     {

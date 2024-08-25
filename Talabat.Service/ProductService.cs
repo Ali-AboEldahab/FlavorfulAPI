@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Talabat.Core;
-using Talabat.Core.Entities;
-using Talabat.Core.Services;
-using Talabat.Core.Specifications.ProductSpecifications;
-
-namespace Talabat.Service
+﻿namespace Talabat.Service
 {
     public class ProductService : IProductService
     {

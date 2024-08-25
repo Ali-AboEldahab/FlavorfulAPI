@@ -1,13 +1,4 @@
-﻿using AutoMapper;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using System.Security.Claims;
-using Talabat.APIs.DTOs;
-using Talabat.APIs.Errors;
-using Talabat.Core.Entities.Order_Aggregate;
-using Talabat.Core.Services;
-
-namespace Talabat.APIs.Controllers
+﻿namespace Talabat.APIs.Controllers
 {
     [Authorize]
     public class OrdersController : BaseApiController
