@@ -1,4 +1,5 @@
-﻿namespace Talabat.Repository.Data.Config
+﻿
+namespace Talabat.Repository.Data.Config
 {
     internal class OrderConfigConfiguration : IEntityTypeConfiguration<Order>
     {

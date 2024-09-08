@@ -435,3 +435,5 @@ D:\Ali\Backend Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\
 D:\Ali\Backend Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Talabat.Service.dll
 D:\Ali\Backend Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Talabat.Service.pdb
 D:\Ali\Backend Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Ali\Backend Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Ali\Backend Projects\Talabat\Backend (API)\Talabat.Solution\Talabat.APIs\bin\Debug\net8.0\Stripe.net.dll

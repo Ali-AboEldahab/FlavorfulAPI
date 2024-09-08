@@ -21,6 +21,52 @@
   },
   {
     "ContainingType": "Talabat.APIs.Controllers.AccountController",
+    "Method": "GetUserAddress",
+    "RelativePath": "api/Account/Address",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Talabat.APIs.DTOs.AddressDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Talabat.APIs.Controllers.AccountController",
+    "Method": "UpdateUserAddress",
+    "RelativePath": "api/Account/Address",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatedAddress",
+        "Type": "Talabat.APIs.DTOs.AddressDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Talabat.APIs.DTOs.AddressDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Talabat.APIs.Controllers.AccountController",
     "Method": "CheckEmailExist",
     "RelativePath": "api/Account/EmailExist",
     "HttpMethod": "GET",
@@ -36,26 +82,6 @@
     "ReturnTypes": [
       {
         "Type": "System.Boolean",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Talabat.APIs.Controllers.AccountController",
-    "Method": "GetUserAddress",
-    "RelativePath": "api/Account/GetUserAddress",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "Talabat.APIs.DTOs.AddressDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -118,32 +144,6 @@
     ]
   },
   {
-    "ContainingType": "Talabat.APIs.Controllers.AccountController",
-    "Method": "UpdateUserAddress",
-    "RelativePath": "api/Account/UpdateUserAddress",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "updatedAddress",
-        "Type": "Talabat.APIs.DTOs.AddressDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Talabat.APIs.DTOs.AddressDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
     "ContainingType": "Talabat.APIs.Controllers.BasketController",
     "Method": "GetBasket",
     "RelativePath": "api/Basket",
@@ -179,7 +179,7 @@
     "Parameters": [
       {
         "Name": "basket",
-        "Type": "Talabat.APIs.DTOs.CustomerBasketDro",
+        "Type": "Talabat.APIs.DTOs.CustomerBasketDto",
         "IsRequired": true
       }
     ],
@@ -245,8 +245,8 @@
   },
   {
     "ContainingType": "Talabat.APIs.Controllers.OrdersController",
-    "Method": "GetDeliveryMethod",
-    "RelativePath": "api/Orders/deliveryMethod",
+    "Method": "GetDeliveryMethods",
+    "RelativePath": "api/Orders/deliveryMethods",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -300,6 +300,32 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IReadOnlyList\u00601[[Talabat.APIs.DTOs.OrderToReturnDto, Talabat.APIs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Talabat.APIs.Controllers.PaymentsController",
+    "Method": "CreateOrUpdatePaymentIntent",
+    "RelativePath": "api/Payments/{basketId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "basketId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Talabat.Core.Entities.CustomerBasket",
         "MediaTypes": [
           "text/plain",
           "application/json",

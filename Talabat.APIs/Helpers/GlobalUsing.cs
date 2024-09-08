@@ -28,4 +28,9 @@ global using Talabat.Repository;
 global using Talabat.Repository.Data;
 global using Talabat.Repository.Identity;
 global using Talabat.Service;
+global using Talabat.Core.IServices;
+global using Order = Talabat.Core.Entities.Order_Aggregate.Order;
+
+
+
 

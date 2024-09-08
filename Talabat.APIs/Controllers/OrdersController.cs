@@ -16,7 +16,7 @@
         public async Task<ActionResult<OrderToReturnDto>> CreateOrder(OrderDto orderDto)
         {
             string? buyerEmail = User.FindFirstValue(ClaimTypes.Email);
-            Address address = _mapper.Map<AddressDto, Address>(orderDto.ShippingAddress);
+            Address address = _mapper.Map<AddressDto, Address>(orderDto.shipToAddress);
             Order? order = await _orderService.CreateOrderAsync(buyerEmail, orderDto.BasketId, orderDto.DeliveryMethodId, address);
 
             if (order is null)
@@ -43,8 +43,8 @@
             return Ok(_mapper.Map<OrderToReturnDto>(order));
         }
 
-        [HttpGet("deliveryMethod")]
-        public async Task<ActionResult<IReadOnlyList<DeliveryMethod>>> GetDeliveryMethod()
+        [HttpGet("deliveryMethods")]
+        public async Task<ActionResult<IReadOnlyList<DeliveryMethod>>> GetDeliveryMethods()
             => Ok(await _orderService.GetDeliveryMethodAsync()); 
     }
 }

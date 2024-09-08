@@ -9,7 +9,7 @@
                 .ForMember(d => d.Category, o => o.MapFrom(n => n.Category.Name))
                 .ForMember(d => d.PictureUrl,o=>o.MapFrom<ProductPictureUrlResolver>());
 
-            CreateMap<CustomerBasketDro, CustomerBasket>();
+            CreateMap<CustomerBasketDto, CustomerBasket>();
 
             CreateMap<BasketItemDto, BasketItem>();
 

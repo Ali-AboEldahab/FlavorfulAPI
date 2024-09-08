@@ -60,6 +60,8 @@ namespace Talabat.APIs
             //Order Service
             builder.Services.AddScoped(typeof(IOrderService), typeof(OrderService));
 
+            //Payment Service
+            builder.Services.AddScoped(typeof(IPaymentService), typeof(PaymentService));
 
             //Auto Mapper
             builder.Services.AddAutoMapper(typeof(MappingProfiles));
@@ -119,7 +121,13 @@ namespace Talabat.APIs
                 };
             });
 
-            
+            builder.Services.AddCors( options =>
+            {
+                options.AddPolicy("MyPolicy", options =>
+                {
+                    options.AllowAnyHeader().AllowAnyMethod().WithOrigins(builder.Configuration["ClientSideUrl"]!);
+                });
+            });
 
             var app = builder.Build();
 
@@ -160,6 +168,8 @@ namespace Talabat.APIs
                 var logger = loggerfactory.CreateLogger<Program>();
                 logger.LogError(ex, "An Error has been occured during applying migration");
             }
+
+            app.UseCors("MyPolicy");
 
             app.UseAuthentication();
 

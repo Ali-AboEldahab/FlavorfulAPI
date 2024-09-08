@@ -12,6 +12,7 @@ global using Talabat.Core.IRepository;
 global using Talabat.Core.Specifications;
 global using Talabat.Repository.Data;
 global using Talabat.Core;
+global using Order = Talabat.Core.Entities.Order_Aggregate.Order;
 
 
 

@@ -71,7 +71,7 @@
         }
 
         [Authorize]
-        [HttpGet("GetUserAddress")]
+        [HttpGet("Address")]
         public async Task<ActionResult<AddressDto>> GetUserAddress()
         {
             AppUser? user = await _userManager.FindUserWithAddress(User);
@@ -80,7 +80,7 @@
         }
 
         [Authorize]
-        [HttpPut("UpdateUserAddress")]
+        [HttpPut("Address")]
         public async Task<ActionResult<AddressDto>> UpdateUserAddress(AddressDto updatedAddress)
         {
             UserAddress? address = _mapper.Map<AddressDto,UserAddress>(updatedAddress);

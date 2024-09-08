@@ -19,9 +19,9 @@
         }
 
         [HttpPost]
-        public async Task<ActionResult<CustomerBasket>> UpdateBasket(CustomerBasketDro basket)
+        public async Task<ActionResult<CustomerBasket>> UpdateBasket(CustomerBasketDto basket)
         {
-            CustomerBasket? mappedBasket = _mapper.Map<CustomerBasketDro, CustomerBasket>(basket);
+            CustomerBasket? mappedBasket = _mapper.Map<CustomerBasketDto, CustomerBasket>(basket);
             CustomerBasket? createdOrUpdated = await _basketRepository.UpdateBasketAsync(mappedBasket);
             if (createdOrUpdated is null)
                 return BadRequest(new ApiResponse(400));
