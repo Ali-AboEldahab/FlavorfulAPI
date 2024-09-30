@@ -336,6 +336,16 @@
     ]
   },
   {
+    "ContainingType": "Talabat.APIs.Controllers.PaymentsController",
+    "Method": "StripeWebHook",
+    "RelativePath": "api/Payments/webhook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Talabat.APIs.Controllers.ProductsController",
     "Method": "GetProducts",
     "RelativePath": "api/Products",

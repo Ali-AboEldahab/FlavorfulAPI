@@ -30,6 +30,10 @@ global using Talabat.Repository.Identity;
 global using Talabat.Service;
 global using Talabat.Core.IServices;
 global using Order = Talabat.Core.Entities.Order_Aggregate.Order;
+global using Stripe;
+global using Product = Talabat.Core.Entities.Product;
+global using Address = Talabat.Core.Entities.Order_Aggregate.Address;
+
 
 
 

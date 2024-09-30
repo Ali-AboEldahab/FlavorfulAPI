@@ -1,6 +1,4 @@
-﻿using Stripe;
-
-namespace Talabat.APIs.Controllers
+﻿namespace Talabat.APIs.Controllers
 {
     public class PaymentsController : BaseApiController
     {

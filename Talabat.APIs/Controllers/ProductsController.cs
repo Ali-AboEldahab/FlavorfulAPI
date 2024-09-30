@@ -14,8 +14,8 @@
         [HttpGet]
         public async Task<ActionResult<Pagination<ProductToReturnDto>>> GetProducts([FromQuery]ProductSpecParams productSpecParams)
         {
-            IReadOnlyList<Product> products = await _productService.GetProductsAsync(productSpecParams);
-            IReadOnlyList<ProductToReturnDto> data = _mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDto>>(products);
+            IReadOnlyList<Core.Entities.Product> products = await _productService.GetProductsAsync(productSpecParams);
+            IReadOnlyList<ProductToReturnDto> data = _mapper.Map<IReadOnlyList<Core.Entities.Product>, IReadOnlyList<ProductToReturnDto>>(products);
             int count = await _productService.GetCountAsync(productSpecParams);
             return Ok(new Pagination<ProductToReturnDto>(productSpecParams.PageIndex, productSpecParams.PageSize, count, data));
         }
@@ -23,10 +23,10 @@
         [HttpGet("{id}")] 
         public async Task<ActionResult<ProductToReturnDto>> GetProduct(int id)
         { 
-            Product? product = await _productService.GetProductByIdAsync(id);
+            Core.Entities.Product? product = await _productService.GetProductByIdAsync(id);
             if(product == null)
                 return NotFound(new ApiResponse(404));
-            return Ok(_mapper.Map<Product,ProductToReturnDto>(product));
+            return Ok(_mapper.Map<Core.Entities.Product,ProductToReturnDto>(product));
         }
 
         [HttpGet("Brands")]
