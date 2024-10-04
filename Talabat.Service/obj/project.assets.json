@@ -1710,24 +1710,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ali.aboeldahab\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages": {}
+    "C:\\Users\\Ali\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Service\\Talabat.Service.csproj",
+      "projectUniqueName": "E:\\Projects\\TalabtAPI\\Talabat.Service\\Talabat.Service.csproj",
       "projectName": "Talabat.Service",
-      "projectPath": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Service\\Talabat.Service.csproj",
-      "packagesPath": "C:\\Users\\ali.aboeldahab\\.nuget\\packages\\",
-      "outputPath": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Service\\obj\\",
+      "projectPath": "E:\\Projects\\TalabtAPI\\Talabat.Service\\Talabat.Service.csproj",
+      "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
+      "outputPath": "E:\\Projects\\TalabtAPI\\Talabat.Service\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ali.aboeldahab\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+        "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1735,16 +1730,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Core\\Talabat.Core.csproj": {
-              "projectPath": "D:\\Ali\\Backend Projects\\Talabat\\Backend (API)\\Talabat.Solution\\Talabat.Core\\Talabat.Core.csproj"
+            "E:\\Projects\\TalabtAPI\\Talabat.Core\\Talabat.Core.csproj": {
+              "projectPath": "E:\\Projects\\TalabtAPI\\Talabat.Core\\Talabat.Core.csproj"
             }
           }
         }
@@ -1789,7 +1782,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

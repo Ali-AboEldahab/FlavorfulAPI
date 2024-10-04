@@ -1033,10 +1033,7 @@
           "StackExchange.Redis": "2.8.0"
         },
         "runtime": {
-          "Talabat.Core.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Talabat.Core.dll": {}
         }
       },
       "Talabat.Repository/1.0.0": {
@@ -1045,10 +1042,7 @@
           "Talabat.Core": "1.0.0"
         },
         "runtime": {
-          "Talabat.Repository.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Talabat.Repository.dll": {}
         }
       },
       "Talabat.Service/1.0.0": {
@@ -1058,10 +1052,7 @@
           "Talabat.Core": "1.0.0"
         },
         "runtime": {
-          "Talabat.Service.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Talabat.Service.dll": {}
         }
       }
     }

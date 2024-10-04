@@ -397,10 +397,7 @@
           "StackExchange.Redis": "2.8.0"
         },
         "runtime": {
-          "Talabat.Core.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Talabat.Core.dll": {}
         }
       }
     }
