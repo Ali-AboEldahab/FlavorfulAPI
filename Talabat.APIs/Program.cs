@@ -1,4 +1,4 @@
-namespace Talabat.APIs
+namespace Flavorful.APIs
 {
     public class Program
     {
@@ -49,7 +49,7 @@ namespace Talabat.APIs
             options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection")));
 
             //Creat obj in Controller from IProductService
-            builder.Services.AddScoped(typeof(IProductService), typeof(Talabat.Service.ProductService));
+            builder.Services.AddScoped(typeof(IProductService), typeof(Flavorful.Service.ProductService));
 
             //Allow DI For BasketRepository
             builder.Services.AddScoped(typeof(IBasketRepository), typeof(BasketRepository));

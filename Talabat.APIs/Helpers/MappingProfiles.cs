@@ -1,4 +1,4 @@
-﻿namespace Talabat.APIs.Helpers
+﻿namespace Flavorful.APIs.Helpers
 {
     public class MappingProfiles : Profile
     {

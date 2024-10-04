@@ -1,4 +1,4 @@
-﻿namespace Talabat.Core.Entities.Identity
+﻿namespace Flavorful.Core.Entities.Identity
 {
     public class UserAddress
     {

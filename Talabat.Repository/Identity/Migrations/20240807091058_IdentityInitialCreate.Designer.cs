@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Talabat.Repository.Identity;
+using Flavorful.Repository.Identity;
 
 #nullable disable
 
-namespace Talabat.Repository.Identity.Migrations
+namespace Flavorful.Repository.Identity.Migrations
 {
     [DbContext(typeof(AppIdentityDbContext))]
     [Migration("20240807091058_IdentityInitialCreate")]

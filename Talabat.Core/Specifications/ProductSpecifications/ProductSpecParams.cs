@@ -1,4 +1,4 @@
-﻿namespace Talabat.Core.Specifications.ProductSpecifications
+﻿namespace Flavorful.Core.Specifications.ProductSpecifications
 {
     public class ProductSpecParams
     {

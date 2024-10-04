@@ -937,9 +937,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\TalabtAPI\\Talabat.Core\\Talabat.Core.csproj",
-      "projectName": "Talabat.Core",
-      "projectPath": "E:\\Projects\\TalabtAPI\\Talabat.Core\\Talabat.Core.csproj",
+      "projectUniqueName": "E:\\Projects\\TalabtAPI\\Talabat.Core\\Flavorful.Core.csproj",
+      "projectName": "Flavorful.Core",
+      "projectPath": "E:\\Projects\\TalabtAPI\\Talabat.Core\\Flavorful.Core.csproj",
       "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
       "outputPath": "E:\\Projects\\TalabtAPI\\Talabat.Core\\obj\\",
       "projectStyle": "PackageReference",

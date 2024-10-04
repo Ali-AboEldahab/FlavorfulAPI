@@ -1115,7 +1115,7 @@
           }
         }
       },
-      "Talabat.Core/1.0.0": {
+      "Flavorful.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1123,10 +1123,10 @@
           "StackExchange.Redis": "2.8.0"
         },
         "compile": {
-          "bin/placeholder/Talabat.Core.dll": {}
+          "bin/placeholder/Flavorful.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Talabat.Core.dll": {}
+          "bin/placeholder/Flavorful.Core.dll": {}
         }
       }
     }
@@ -3044,16 +3044,16 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Talabat.Core/1.0.0": {
+    "Flavorful.Core/1.0.0": {
       "type": "project",
-      "path": "../Talabat.Core/Talabat.Core.csproj",
-      "msbuildProject": "../Talabat.Core/Talabat.Core.csproj"
+      "path": "../Talabat.Core/Flavorful.Core.csproj",
+      "msbuildProject": "../Talabat.Core/Flavorful.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.4",
-      "Talabat.Core >= 1.0.0"
+      "Flavorful.Core >= 1.0.0",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.4"
     ]
   },
   "packageFolders": {
@@ -3062,9 +3062,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\TalabtAPI\\Talabat.Repository\\Talabat.Repository.csproj",
-      "projectName": "Talabat.Repository",
-      "projectPath": "E:\\Projects\\TalabtAPI\\Talabat.Repository\\Talabat.Repository.csproj",
+      "projectUniqueName": "E:\\Projects\\TalabtAPI\\Talabat.Repository\\Flavorful.Repository.csproj",
+      "projectName": "Flavorful.Repository",
+      "projectPath": "E:\\Projects\\TalabtAPI\\Talabat.Repository\\Flavorful.Repository.csproj",
       "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
       "outputPath": "E:\\Projects\\TalabtAPI\\Talabat.Repository\\obj\\",
       "projectStyle": "PackageReference",
@@ -3083,8 +3083,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Projects\\TalabtAPI\\Talabat.Core\\Talabat.Core.csproj": {
-              "projectPath": "E:\\Projects\\TalabtAPI\\Talabat.Core\\Talabat.Core.csproj"
+            "E:\\Projects\\TalabtAPI\\Talabat.Core\\Flavorful.Core.csproj": {
+              "projectPath": "E:\\Projects\\TalabtAPI\\Talabat.Core\\Flavorful.Core.csproj"
             }
           }
         }

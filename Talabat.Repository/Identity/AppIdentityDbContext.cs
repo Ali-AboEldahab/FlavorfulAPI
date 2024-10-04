@@ -1,4 +1,4 @@
-﻿namespace Talabat.Repository.Identity
+﻿namespace Flavorful.Repository.Identity
 {
     public class AppIdentityDbContext : IdentityDbContext<AppUser>
     {

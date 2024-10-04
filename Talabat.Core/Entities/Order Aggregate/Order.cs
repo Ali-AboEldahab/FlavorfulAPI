@@ -1,4 +1,4 @@
-﻿namespace Talabat.Core.Entities.Order_Aggregate
+﻿namespace Flavorful.Core.Entities.Order_Aggregate
 {
     public class Order : BaseEntity
     {

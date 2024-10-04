@@ -1,4 +1,4 @@
-﻿namespace Talabat.Core
+﻿namespace Flavorful.Core
 {
     public interface IUnitOfWork : IAsyncDisposable
     {

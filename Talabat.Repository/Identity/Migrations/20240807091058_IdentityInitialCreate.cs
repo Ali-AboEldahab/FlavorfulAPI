@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Talabat.Repository.Identity.Migrations
+namespace Flavorful.Repository.Identity.Migrations
 {
     /// <inheritdoc />
     public partial class IdentityInitialCreate : Migration

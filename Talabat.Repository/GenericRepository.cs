@@ -1,4 +1,4 @@
-﻿namespace Talabat.Repository
+﻿namespace Flavorful.Repository
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
     {

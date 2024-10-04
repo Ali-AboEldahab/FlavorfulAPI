@@ -1,4 +1,4 @@
-﻿namespace Talabat.Core.IServices
+﻿namespace Flavorful.Core.IServices
 {
     public interface IPaymentService
     {

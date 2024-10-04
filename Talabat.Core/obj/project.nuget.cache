@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DYadMEL80bnRYZmnIHfY7Mq4VLu5Prrn97wI/OLuteBCSKyNRZlcXtbWhmOEszIW7GA7/3TqAs5yor1KS4Sivw==",
+  "dgSpecHash": "LS0fTMLUpjgbxYyK7jmhJPtGtaNUvH1ARPHvsAqnOaH6QT+0jalMJX5OTG4ynnjLoqqN/t57d9r6w3hGUo/uDw==",
   "success": true,
-  "projectFilePath": "E:\\Projects\\TalabtAPI\\Talabat.Core\\Talabat.Core.csproj",
+  "projectFilePath": "E:\\Projects\\TalabtAPI\\Talabat.Core\\Flavorful.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ali\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.7\\microsoft.aspnetcore.cryptography.internal.8.0.7.nupkg.sha512",
     "C:\\Users\\Ali\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.7\\microsoft.aspnetcore.cryptography.keyderivation.8.0.7.nupkg.sha512",

@@ -1,4 +1,4 @@
-﻿namespace Talabat.Core.Entities
+﻿namespace Flavorful.Core.Entities
 {
     public class ProductBrand : BaseEntity
     {

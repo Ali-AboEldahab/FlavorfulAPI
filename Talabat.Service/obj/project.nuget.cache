@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sef1ZS64HPqLVg4eEaSWoPWkTyA06qapW3ZAZKFqA9K1B0yumMBOZs5vINc/aBKlPe1VEBGqk1pm5EtXIk5KEw==",
+  "dgSpecHash": "ammW2gdPPVhWdWV+aBMdeRkVuPYWhc5I+wDca2WvGoJsYRoN01nlI/YXlg+rFlCaczhckVtAZpNx2jPjDSt2Qg==",
   "success": true,
-  "projectFilePath": "E:\\Projects\\TalabtAPI\\Talabat.Service\\Talabat.Service.csproj",
+  "projectFilePath": "E:\\Projects\\TalabtAPI\\Talabat.Service\\Flavorful.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ali\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.7\\microsoft.aspnetcore.authentication.jwtbearer.8.0.7.nupkg.sha512",
     "C:\\Users\\Ali\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.7\\microsoft.aspnetcore.cryptography.internal.8.0.7.nupkg.sha512",

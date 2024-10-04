@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Talabat.Core.Specifications.OrderSpecifications
+namespace Flavorful.Core.Specifications.OrderSpecifications
 {
     public class OrderWithPaymentIntentSpecs : BaseSpecifications<Order>
     {

@@ -1735,7 +1735,7 @@
           }
         }
       },
-      "Talabat.Core/1.0.0": {
+      "Flavorful.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1743,39 +1743,39 @@
           "StackExchange.Redis": "2.8.0"
         },
         "compile": {
-          "bin/placeholder/Talabat.Core.dll": {}
+          "bin/placeholder/Flavorful.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Talabat.Core.dll": {}
+          "bin/placeholder/Flavorful.Core.dll": {}
         }
       },
-      "Talabat.Repository/1.0.0": {
+      "Flavorful.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4",
-          "Talabat.Core": "1.0.0"
+          "Flavorful.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4"
         },
         "compile": {
-          "bin/placeholder/Talabat.Repository.dll": {}
+          "bin/placeholder/Flavorful.Repository.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Talabat.Repository.dll": {}
+          "bin/placeholder/Flavorful.Repository.dll": {}
         }
       },
-      "Talabat.Service/1.0.0": {
+      "Flavorful.Service/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Flavorful.Core": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.7",
-          "Stripe.net": "45.9.0",
-          "Talabat.Core": "1.0.0"
+          "Stripe.net": "45.9.0"
         },
         "compile": {
-          "bin/placeholder/Talabat.Service.dll": {}
+          "bin/placeholder/Flavorful.Service.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Talabat.Service.dll": {}
+          "bin/placeholder/Flavorful.Service.dll": {}
         }
       }
     }
@@ -4746,30 +4746,30 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Talabat.Core/1.0.0": {
+    "Flavorful.Core/1.0.0": {
       "type": "project",
-      "path": "../Talabat.Core/Talabat.Core.csproj",
-      "msbuildProject": "../Talabat.Core/Talabat.Core.csproj"
+      "path": "../Talabat.Core/Flavorful.Core.csproj",
+      "msbuildProject": "../Talabat.Core/Flavorful.Core.csproj"
     },
-    "Talabat.Repository/1.0.0": {
+    "Flavorful.Repository/1.0.0": {
       "type": "project",
-      "path": "../Talabat.Repository/Talabat.Repository.csproj",
-      "msbuildProject": "../Talabat.Repository/Talabat.Repository.csproj"
+      "path": "../Talabat.Repository/Flavorful.Repository.csproj",
+      "msbuildProject": "../Talabat.Repository/Flavorful.Repository.csproj"
     },
-    "Talabat.Service/1.0.0": {
+    "Flavorful.Service/1.0.0": {
       "type": "project",
-      "path": "../Talabat.Service/Talabat.Service.csproj",
-      "msbuildProject": "../Talabat.Service/Talabat.Service.csproj"
+      "path": "../Talabat.Service/Flavorful.Service.csproj",
+      "msbuildProject": "../Talabat.Service/Flavorful.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
+      "Flavorful.Core >= 1.0.0",
+      "Flavorful.Repository >= 1.0.0",
+      "Flavorful.Service >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.4",
-      "Swashbuckle.AspNetCore >= 6.4.0",
-      "Talabat.Core >= 1.0.0",
-      "Talabat.Repository >= 1.0.0",
-      "Talabat.Service >= 1.0.0"
+      "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
   "packageFolders": {
@@ -4778,9 +4778,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\TalabtAPI\\Talabat.APIs\\Talabat.APIs.csproj",
-      "projectName": "Talabat.APIs",
-      "projectPath": "E:\\Projects\\TalabtAPI\\Talabat.APIs\\Talabat.APIs.csproj",
+      "projectUniqueName": "E:\\Projects\\TalabtAPI\\Talabat.APIs\\Flavorful.APIs.csproj",
+      "projectName": "Flavorful.APIs",
+      "projectPath": "E:\\Projects\\TalabtAPI\\Talabat.APIs\\Flavorful.APIs.csproj",
       "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
       "outputPath": "E:\\Projects\\TalabtAPI\\Talabat.APIs\\obj\\",
       "projectStyle": "PackageReference",
@@ -4799,14 +4799,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Projects\\TalabtAPI\\Talabat.Core\\Talabat.Core.csproj": {
-              "projectPath": "E:\\Projects\\TalabtAPI\\Talabat.Core\\Talabat.Core.csproj"
+            "E:\\Projects\\TalabtAPI\\Talabat.Core\\Flavorful.Core.csproj": {
+              "projectPath": "E:\\Projects\\TalabtAPI\\Talabat.Core\\Flavorful.Core.csproj"
             },
-            "E:\\Projects\\TalabtAPI\\Talabat.Repository\\Talabat.Repository.csproj": {
-              "projectPath": "E:\\Projects\\TalabtAPI\\Talabat.Repository\\Talabat.Repository.csproj"
+            "E:\\Projects\\TalabtAPI\\Talabat.Repository\\Flavorful.Repository.csproj": {
+              "projectPath": "E:\\Projects\\TalabtAPI\\Talabat.Repository\\Flavorful.Repository.csproj"
             },
-            "E:\\Projects\\TalabtAPI\\Talabat.Service\\Talabat.Service.csproj": {
-              "projectPath": "E:\\Projects\\TalabtAPI\\Talabat.Service\\Talabat.Service.csproj"
+            "E:\\Projects\\TalabtAPI\\Talabat.Service\\Flavorful.Service.csproj": {
+              "projectPath": "E:\\Projects\\TalabtAPI\\Talabat.Service\\Flavorful.Service.csproj"
             }
           }
         }

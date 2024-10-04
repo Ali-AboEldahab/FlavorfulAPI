@@ -1,4 +1,4 @@
-﻿namespace Talabat.APIs.Controllers
+﻿namespace Flavorful.APIs.Controllers
 {
     public class BasketController : BaseApiController
     {

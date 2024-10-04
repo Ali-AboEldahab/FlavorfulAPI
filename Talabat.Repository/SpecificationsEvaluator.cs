@@ -1,4 +1,4 @@
-﻿namespace Talabat.Repository
+﻿namespace Flavorful.Repository
 {
     internal class SpecificationsEvaluator <TEntity> where TEntity : BaseEntity
     {

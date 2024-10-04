@@ -1,4 +1,4 @@
-﻿namespace Talabat.Repository.Data.Config
+﻿namespace Flavorful.Repository.Data.Config
 {
     internal class ProductConfigrations : IEntityTypeConfiguration<Product>
     {

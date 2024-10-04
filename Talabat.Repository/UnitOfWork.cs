@@ -1,4 +1,4 @@
-﻿namespace Talabat.Repository
+﻿namespace Flavorful.Repository
 {
     public class UnitOfWork : IUnitOfWork
     {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7L/cJVU17qLvh8cZY85MtSRwlszbreWWmi3FlN4oTtGk1EjIVdd+f7hbCqnSsK8heietjcWEJ91wDUx83BVBfQ==",
+  "dgSpecHash": "wklWfhvOWnogGvsN9t2BltU/8cuk3pzg1ST1KXGi/e1P/oCT7yMePLMqNyXqtV4JD4ecka1KGPEnCGdvTfUkxg==",
   "success": true,
-  "projectFilePath": "E:\\Projects\\TalabtAPI\\Talabat.APIs\\Talabat.APIs.csproj",
+  "projectFilePath": "E:\\Projects\\TalabtAPI\\Talabat.APIs\\Flavorful.APIs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ali\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Ali\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

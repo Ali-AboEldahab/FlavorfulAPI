@@ -1,5 +1,5 @@
 ﻿
-namespace Talabat.Repository.Data.Config
+namespace Flavorful.Repository.Data.Config
 {
     internal class OrderConfigConfiguration : IEntityTypeConfiguration<Order>
     {

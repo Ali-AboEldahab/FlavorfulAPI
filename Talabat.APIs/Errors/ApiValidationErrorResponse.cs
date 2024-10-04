@@ -1,4 +1,4 @@
-﻿namespace Talabat.APIs.Errors
+﻿namespace Flavorful.APIs.Errors
 {
     public class ApiValidationErrorResponse : ApiResponse
     {

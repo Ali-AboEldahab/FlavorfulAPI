@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Talabat.Repository.Data;
+using Flavorful.Repository.Data;
 
 #nullable disable
 
-namespace Talabat.Repository.Data.Migraions
+namespace Flavorful.Repository.Data.Migraions
 {
     [DbContext(typeof(StoreContext))]
     [Migration("20240428185438_ProductModule")]

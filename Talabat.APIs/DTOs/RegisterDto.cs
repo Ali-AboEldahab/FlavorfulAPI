@@ -1,4 +1,4 @@
-﻿namespace Talabat.APIs.DTOs
+﻿namespace Flavorful.APIs.DTOs
 {
     public class RegisterDto
     {

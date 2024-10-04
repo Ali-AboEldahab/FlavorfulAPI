@@ -1,5 +1,5 @@
 ﻿
-namespace Talabat.Service
+namespace Flavorful.Service
 {
     public class PaymentService : IPaymentService
     {

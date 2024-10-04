@@ -1,4 +1,4 @@
-﻿namespace Talabat.APIs.Middlewares
+﻿namespace Flavorful.APIs.Middlewares
 {
     // Convention Based
     public class ExceptionMiddleware

@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Talabat.Repository.Data.Migraions
+namespace Flavorful.Repository.Data.Migraions
 {
     /// <inheritdoc />
     public partial class ProductModule : Migration

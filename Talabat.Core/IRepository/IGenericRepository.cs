@@ -1,4 +1,4 @@
-﻿namespace Talabat.Core.IRepository
+﻿namespace Flavorful.Core.IRepository
 {
     public interface IGenericRepository <T> where T : BaseEntity
     {

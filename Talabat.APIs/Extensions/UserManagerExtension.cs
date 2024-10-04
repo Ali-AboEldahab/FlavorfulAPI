@@ -1,4 +1,4 @@
-﻿namespace Talabat.APIs.Extensions
+﻿namespace Flavorful.APIs.Extensions
 {
     public static class UserManagerExtension
     {

@@ -1,4 +1,4 @@
-﻿namespace Talabat.Core.Services
+﻿namespace Flavorful.Core.Services
 {
     public interface IProductService
     {

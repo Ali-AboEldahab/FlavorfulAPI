@@ -1,0 +1,16 @@
+E:\Projects\TalabtAPI\Talabat.Service\bin\Debug\net8.0\Flavorful.Service.deps.json
+E:\Projects\TalabtAPI\Talabat.Service\bin\Debug\net8.0\Flavorful.Service.dll
+E:\Projects\TalabtAPI\Talabat.Service\bin\Debug\net8.0\Flavorful.Service.pdb
+E:\Projects\TalabtAPI\Talabat.Service\bin\Debug\net8.0\Flavorful.Core.dll
+E:\Projects\TalabtAPI\Talabat.Service\bin\Debug\net8.0\Flavorful.Core.pdb
+E:\Projects\TalabtAPI\Talabat.Service\obj\Debug\net8.0\Flavorful.Service.csproj.AssemblyReference.cache
+E:\Projects\TalabtAPI\Talabat.Service\obj\Debug\net8.0\Flavorful.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\TalabtAPI\Talabat.Service\obj\Debug\net8.0\Flavorful.Service.AssemblyInfoInputs.cache
+E:\Projects\TalabtAPI\Talabat.Service\obj\Debug\net8.0\Flavorful.Service.AssemblyInfo.cs
+E:\Projects\TalabtAPI\Talabat.Service\obj\Debug\net8.0\Flavorful.Service.csproj.CoreCompileInputs.cache
+E:\Projects\TalabtAPI\Talabat.Service\obj\Debug\net8.0\Flavorful.Service.sourcelink.json
+E:\Projects\TalabtAPI\Talabat.Service\obj\Debug\net8.0\Flavorfu.8A43A9DA.Up2Date
+E:\Projects\TalabtAPI\Talabat.Service\obj\Debug\net8.0\Flavorful.Service.dll
+E:\Projects\TalabtAPI\Talabat.Service\obj\Debug\net8.0\refint\Flavorful.Service.dll
+E:\Projects\TalabtAPI\Talabat.Service\obj\Debug\net8.0\Flavorful.Service.pdb
+E:\Projects\TalabtAPI\Talabat.Service\obj\Debug\net8.0\ref\Flavorful.Service.dll

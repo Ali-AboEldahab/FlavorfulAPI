@@ -1,4 +1,4 @@
-﻿namespace Talabat.APIs.Controllers
+﻿namespace Flavorful.APIs.Controllers
 {
     public class AccountController : BaseApiController
     {
@@ -8,7 +8,7 @@
         private readonly IMapper _mapper;
 
         public AccountController(UserManager<AppUser> userManager,
-            SignInManager<AppUser> signInManager ,
+            SignInManager<AppUser> signInManager,
             IAuthService authService,
             IMapper mapper)
         {
@@ -25,9 +25,9 @@
             if (user is null)
                 return Unauthorized(new ApiResponse(401));
 
-            var result = await _signInManager.CheckPasswordSignInAsync(user, model.Password,false);
+            var result = await _signInManager.CheckPasswordSignInAsync(user, model.Password, false);
 
-            if (!result.Succeeded) 
+            if (!result.Succeeded)
                 return Unauthorized(new ApiResponse(401));
 
             UserDto data = new(user.DisplayName, user.Email!, await _authService.CreateTokenAsync(user, _userManager));
@@ -38,8 +38,8 @@
         [HttpPost("register")]
         public async Task<ActionResult<UserDto>> Register(RegisterDto model)
         {
-            if(CheckEmailExist(model.Email).Result.Value)
-                return BadRequest(new ApiValidationErrorResponse { Errors = new string[] {"Email is Already Exist"} });
+            if (CheckEmailExist(model.Email).Result.Value)
+                return BadRequest(new ApiValidationErrorResponse { Errors = new string[] { "Email is Already Exist" } });
 
             AppUser user = new()
             {
@@ -48,7 +48,7 @@
                 UserName = model.Email.Split('@')[0],
             };
 
-            IdentityResult result = await _userManager.CreateAsync(user,model.Password);
+            IdentityResult result = await _userManager.CreateAsync(user, model.Password);
 
             if (!result.Succeeded)
                 return BadRequest(new ApiResponse(400));
@@ -83,7 +83,7 @@
         [HttpPut("Address")]
         public async Task<ActionResult<AddressDto>> UpdateUserAddress(AddressDto updatedAddress)
         {
-            UserAddress? address = _mapper.Map<AddressDto,UserAddress>(updatedAddress);
+            UserAddress? address = _mapper.Map<AddressDto, UserAddress>(updatedAddress);
             AppUser? user = await _userManager.FindUserWithAddress(User);
             address.Id = user!.Address.Id;
             user.Address = address;

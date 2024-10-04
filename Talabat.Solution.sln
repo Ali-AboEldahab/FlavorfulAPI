@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.APIs", "Talabat.APIs\Talabat.APIs.csproj", "{78A77794-1328-4B4E-A68E-435BB99989AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flavorful.APIs", "Talabat.APIs\Flavorful.APIs.csproj", "{78A77794-1328-4B4E-A68E-435BB99989AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.Core", "Talabat.Core\Talabat.Core.csproj", "{B108D55B-37CC-4ACD-8AF4-7D1A7C410E7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flavorful.Core", "Talabat.Core\Flavorful.Core.csproj", "{B108D55B-37CC-4ACD-8AF4-7D1A7C410E7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.Repository", "Talabat.Repository\Talabat.Repository.csproj", "{33E704AA-4C0E-48C5-878A-09F973EE5FA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flavorful.Repository", "Talabat.Repository\Flavorful.Repository.csproj", "{33E704AA-4C0E-48C5-878A-09F973EE5FA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.Service", "Talabat.Service\Talabat.Service.csproj", "{4E3EACA1-406D-4216-BAD6-9E32C2074C44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flavorful.Service", "Talabat.Service\Flavorful.Service.csproj", "{4E3EACA1-406D-4216-BAD6-9E32C2074C44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

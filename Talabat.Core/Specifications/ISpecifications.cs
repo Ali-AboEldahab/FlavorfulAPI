@@ -1,4 +1,4 @@
-﻿namespace Talabat.Core.Specifications
+﻿namespace Flavorful.Core.Specifications
 {
     public interface ISpecifications<T> where T : BaseEntity
     {

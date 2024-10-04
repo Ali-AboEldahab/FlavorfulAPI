@@ -1,4 +1,4 @@
-﻿namespace Talabat.Core.Specifications.OrderSpecifications
+﻿namespace Flavorful.Core.Specifications.OrderSpecifications
 {
     public class OrderSpec : BaseSpecifications<Order>
     {

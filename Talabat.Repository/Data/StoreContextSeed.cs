@@ -1,4 +1,4 @@
-﻿namespace Talabat.Repository.Data
+﻿namespace Flavorful.Repository.Data
 {
     public class StoreContextSeed
     {

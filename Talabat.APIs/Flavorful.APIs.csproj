@@ -16,9 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Talabat.Core\Talabat.Core.csproj" />
-    <ProjectReference Include="..\Talabat.Repository\Talabat.Repository.csproj" />
-    <ProjectReference Include="..\Talabat.Service\Talabat.Service.csproj" />
+    <ProjectReference Include="..\Talabat.Core\Flavorful.Core.csproj" />
+    <ProjectReference Include="..\Talabat.Repository\Flavorful.Repository.csproj" />
+    <ProjectReference Include="..\Talabat.Service\Flavorful.Service.csproj" />
   </ItemGroup>
 
 </Project>
