@@ -1,0 +1,311 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Projects\\FlavorfulAPI\\Flavorful.APIs\\Flavorful.APIs.csproj": {}
+  },
+  "projects": {
+    "E:\\Projects\\FlavorfulAPI\\Flavorful.APIs\\Flavorful.APIs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\FlavorfulAPI\\Flavorful.APIs\\Flavorful.APIs.csproj",
+        "projectName": "Flavorful.APIs",
+        "projectPath": "E:\\Projects\\FlavorfulAPI\\Flavorful.APIs\\Flavorful.APIs.csproj",
+        "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\FlavorfulAPI\\Flavorful.APIs\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Projects\\FlavorfulAPI\\Flavorful.Core\\Flavorful.Core.csproj": {
+                "projectPath": "E:\\Projects\\FlavorfulAPI\\Flavorful.Core\\Flavorful.Core.csproj"
+              },
+              "E:\\Projects\\FlavorfulAPI\\Flavorful.Repository\\Flavorful.Repository.csproj": {
+                "projectPath": "E:\\Projects\\FlavorfulAPI\\Flavorful.Repository\\Flavorful.Repository.csproj"
+              },
+              "E:\\Projects\\FlavorfulAPI\\Flavorful.Service\\Flavorful.Service.csproj": {
+                "projectPath": "E:\\Projects\\FlavorfulAPI\\Flavorful.Service\\Flavorful.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\FlavorfulAPI\\Flavorful.Core\\Flavorful.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\FlavorfulAPI\\Flavorful.Core\\Flavorful.Core.csproj",
+        "projectName": "Flavorful.Core",
+        "projectPath": "E:\\Projects\\FlavorfulAPI\\Flavorful.Core\\Flavorful.Core.csproj",
+        "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\FlavorfulAPI\\Flavorful.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\FlavorfulAPI\\Flavorful.Repository\\Flavorful.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\FlavorfulAPI\\Flavorful.Repository\\Flavorful.Repository.csproj",
+        "projectName": "Flavorful.Repository",
+        "projectPath": "E:\\Projects\\FlavorfulAPI\\Flavorful.Repository\\Flavorful.Repository.csproj",
+        "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\FlavorfulAPI\\Flavorful.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Projects\\FlavorfulAPI\\Flavorful.Core\\Flavorful.Core.csproj": {
+                "projectPath": "E:\\Projects\\FlavorfulAPI\\Flavorful.Core\\Flavorful.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\FlavorfulAPI\\Flavorful.Service\\Flavorful.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\FlavorfulAPI\\Flavorful.Service\\Flavorful.Service.csproj",
+        "projectName": "Flavorful.Service",
+        "projectPath": "E:\\Projects\\FlavorfulAPI\\Flavorful.Service\\Flavorful.Service.csproj",
+        "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\FlavorfulAPI\\Flavorful.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Projects\\FlavorfulAPI\\Flavorful.Core\\Flavorful.Core.csproj": {
+                "projectPath": "E:\\Projects\\FlavorfulAPI\\Flavorful.Core\\Flavorful.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[45.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
