@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Flavorful.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a862398c8b2aa1bbdce56e8f88b4e662903dfc0d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4eee4c59e3c334da243fd691a43b04c8b9bfee28")]
 [assembly: System.Reflection.AssemblyProductAttribute("Flavorful.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Flavorful.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
